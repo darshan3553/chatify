@@ -1,0 +1,25 @@
+{
+  "name": "cha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "npm ci --prefix Backend && npm ci --prefix frontend && npm run build --prefix frontend",
+    "start": "node Backend/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshan3553/chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/darshan3553/chat/issues"
+  },
+  "homepage": "https://github.com/darshan3553/chat#readme"
+}
